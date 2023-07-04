@@ -22,7 +22,7 @@ public class conexion {
          
          Class.forName("com.mysql.jdbc.Driver");
          
-         con = DriverManager.getConnection(url,"root","root");
+         con = DriverManager.getConnection(url,"root","098078");
          if (con!=null){
             System.out.println("Conexión a base de datos facturacion. listo");
          }
